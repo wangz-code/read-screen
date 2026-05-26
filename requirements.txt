@@ -1,0 +1,20 @@
+# 通用基础库
+numpy
+mss
+opencv-python
+
+# 多线程/系统内置(无需额外安装，仅标注)
+# threading time subprocess re difflib
+
+
+# PaddleOCR 文字识别核心
+paddlepaddle
+paddleocr
+
+# Piper 离线TTS 核心及依赖
+piper-tts
+sounddevice
+g2pw
+unicode_rbnf
+onnxruntime
+simpleaudio
