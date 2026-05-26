@@ -13,6 +13,9 @@
 > 姑娘喜欢看夏目友人帐但是日语他听不懂,字幕也不认识, 还有玩游戏的时候一些对话她也不认识字, 所以这个项目就诞生了
 
 
+![图片描述](https://raw.githubusercontent.com/wangz-code/read-screen/main/draw.png)
+![图片描述](https://raw.githubusercontent.com/wangz-code/read-screen/main/draw2.png)
+
 ```bash
 # 需要 conda 环境
 conda create  -n readscreen python=3.10
