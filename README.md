@@ -21,7 +21,7 @@
 conda create  -n readscreen python=3.10
 conda activate readscreen
 
-pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -r requirements.txt -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple some-package
 
 python main.py
 
