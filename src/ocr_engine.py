@@ -6,7 +6,9 @@ from paddleocr import PaddleOCR
 class OCREngine:
     def __init__(self):
         print("正在初始化 PaddleOCR（首次加载会下载模型，请稍等）...")
-        self.ocr = PaddleOCR(use_angle_cls=True, lang="ch")
+
+        # linux 下必须 禁用 enable_mkldnn  否则会报错 https://github.com/PaddlePaddle/PaddleOCR/issues/17869
+        self.ocr = PaddleOCR(enable_mkldnn=False,use_angle_cls=True, lang="ch")
         print("OCR 引擎就绪")
 
     def screen_ocr(self,region: dict) -> str:

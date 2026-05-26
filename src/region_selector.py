@@ -16,6 +16,7 @@ class RegionSelector:
         screen_width = root.winfo_screenwidth()
         screen_height = root.winfo_screenheight()
         root.geometry(f"{screen_width}x{screen_height}+0+0")
+        root.wait_visibility(root)
         root.attributes('-alpha', 0.3)   # 初始半透明
         root.configure(bg='black')
 
